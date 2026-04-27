@@ -40,6 +40,17 @@
         </div>
       </div>
     </div>
-    <script type="module" src="/src/main.tsx"></script>
+    <script>
+  document.getElementById("root").innerHTML = `
+    <div class="fallback">
+      <div>
+        <h1>Production Scope Engine</h1>
+        <p>GitHub Pages version is in demo mode.</p>
+        <p>Run locally for full functionality:</p>
+        <p><strong>npm run api + npm run dev</strong></p>
+      </div>
+    </div>
+  `;
+</script>
   </body>
 </html>
